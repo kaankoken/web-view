@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:web_view/home.dart';
 import 'package:web_view/route_manager.dart';
 import 'package:web_view/routes.dart';
-import 'package:web_view/web_view.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 final RouteManager routeManager = RouteManager.instance;

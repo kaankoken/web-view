@@ -38,13 +38,13 @@ class _WebViewExampleState extends State<WebViewExample> {
           _controller.complete(webViewController);
         },
         onProgress: (int progress) {
-          print("WebView is loading (progress : $progress%)");
+          debugPrint("WebView is loading (progress : $progress%)");
         },
         onPageStarted: (String url) {
-          print('Page started loading: $url');
+          debugPrint('Page started loading: $url');
         },
         onPageFinished: (String url) {
-          print('Page finished loading: $url');
+          debugPrint('Page finished loading: $url');
         },
         gestureNavigationEnabled: true,
       ),
